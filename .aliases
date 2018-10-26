@@ -1,0 +1,31 @@
+#!/usr/bin/env zsh
+
+# Zsh Config
+alias zshconfig="code ~/.zshrc"
+alias aliases="code ~/.aliases"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias hyperconfig="code ~/.hyper.js"
+
+# Directory
+alias sl=ls
+alias ls='ls -G'        # Compact view, show colors
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -alh'
+alias l='ls -a'
+alias l1='ls -1'
+
+# Open Programs
+alias xcode="open -a '/Applications/XCode.app'"
+alias safari="open -a safari"
+alias chrome="open -a google\ chrome"
+alias textedit='open -a TextEdit'
+alias slack="open -a '/Applications/Slack.app'"
+alias buzz="open -a '/Applications/Buzz.app'"
+alias domodesktop="open -a '/Applications/Domo Desktop.app'"
+
+# Install Specific Versions
+alias domo3="npm install -g ryuu@3.0.1"
+alias domo2="npm install -g ryuu@2.23.22"
+
+# Cache
+alias flush='dscacheutil -flushcache'
