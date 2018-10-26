@@ -1,0 +1,21 @@
+[push]
+	default = simple
+[user]
+	name = John Woodruff
+	email = johnwoodruff91@gmail.com
+[core]
+	editor = nano
+	excludesfile = /Users/johnwoodruff/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/johnwoodruff/.stCommitMsg
+[alias]
+	st = status -sb
+	cho = checkout
+	tree = log --graph --oneline --decorate
+	l = log --decorate --pretty=format:\"%C(yellow)%h%C(reset), %an, %C(cyan)%cr%C(reset): %s\"
