@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/johnwoodruff/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -57,4 +57,3 @@ load-nvmrc
 source $HOME/.aliases
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
