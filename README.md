@@ -12,7 +12,7 @@ Run the following commands:
 
 ```shell
 $ sudo chmod a+x setup-machine.sh
-$ ./setup-machine.sh
+$ ./scripts/setup-machine.sh
 ```
 
 ### Dotfile Installation
@@ -21,5 +21,5 @@ Run the following commands:
 
 ```shell
 $ sudo chmod a+x install-dotfiles.sh
-$ ./install-dotfiles.sh
+$ ./scripts/install-dotfiles.sh
 ```
