@@ -24,8 +24,8 @@ alias buzz="open -a '/Applications/Buzz.app'"
 alias domodesktop="open -a '/Applications/Domo Desktop.app'"
 
 # Install Specific Versions
-alias domo3="npm install -g ryuu@3.0.1"
-alias domo2="npm install -g ryuu@2.23.22"
+alias ryuu3="npm install -g ryuu@3.0.1"
+alias ryuu2="npm install -g ryuu@2.23.22"
 
 # Cache
 alias flush='dscacheutil -flushcache'
