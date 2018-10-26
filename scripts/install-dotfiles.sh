@@ -1,6 +1,8 @@
 #!/bin/bash
 
-DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $(dirname $0)
+
+DOTFILES_DIR="$( cd ../dotfiles && pwd )"
 
 ln -sfv "$DOTFILES_DIR/.aliases" ~
 ln -sfv "$DOTFILES_DIR/.angular-config.json" ~
