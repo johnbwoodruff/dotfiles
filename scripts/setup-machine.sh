@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# NOTE: THIS IS A WORK IN PROGRESS
-
 # Install ZSH
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -36,8 +34,24 @@ caskpackages=(
   "firefox"
   "google-hangouts"
   "visual-studio-code"
+  "visual-studio-code-insiders"
+  "atom"
+  "figma"
+  "steam"
+  "discord"
+  "postman"
+  "charles"
+  "kitematic"
   "sourcetree"
   "spotify"
+  "slack"
+  "hyper"
+  "bettertouchtool"
+  "the-unarchiver"
+  "screenflow"
+  "switchresx"
+  "kap"
+  "tableau-public"
 )
 
 # Homebrew cask installations
@@ -49,3 +63,24 @@ done
 
 # Install zsh-nvm plugin
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+
+
+echo "**** DONE INSTALLING APPLICATIONS ****"
+echo "Remember to install the following manually:"
+
+manualpackages=(
+  "Docker for Mac"
+  "Fira Code"
+  "OneDrive"
+  "Day One"
+  "AppIcon Generator"
+  "Cacher"
+  "LastPass"
+  "Sip"
+)
+
+# Manual installations
+for i in "${manualpackages[@]}"
+do
+  echo "$i"
+done

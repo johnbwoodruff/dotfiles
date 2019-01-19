@@ -1,17 +1,23 @@
 # Dotfiles
 
-My personal dotfiles.
+My personal dotfiles and machine setup scripts for maximum machine setup efficiency.
+
+## Prerequisites
+
+Before running the setup script, you need to install the Xcode Command Line Tools using the following command:
+
+```shell
+$ xcode-select --install
+```
 
 ## Usage
 
 ### Machine Setup
 
-**NOTE:** This is still under construction and doesn't work quite yet.
-
 Run the following commands:
 
 ```shell
-$ sudo chmod a+x setup-machine.sh
+$ chmod a+x ./scripts/setup-machine.sh
 $ ./scripts/setup-machine.sh
 ```
 
@@ -20,6 +26,6 @@ $ ./scripts/setup-machine.sh
 Run the following commands:
 
 ```shell
-$ sudo chmod a+x install-dotfiles.sh
+$ chmod a+x ./scripts/install-dotfiles.sh
 $ ./scripts/install-dotfiles.sh
 ```
