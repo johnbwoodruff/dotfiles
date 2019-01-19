@@ -2,6 +2,7 @@
 
 # Zsh Config
 alias zshconfig="code ~/.zshrc"
+alias zshrc=zshconfig
 alias aliases="code ~/.aliases"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias hyperconfig="code ~/.hyper.js"
@@ -24,8 +25,14 @@ alias buzz="open -a '/Applications/Buzz.app'"
 alias domodesktop="open -a '/Applications/Domo Desktop.app'"
 
 # Install Specific Versions
-alias ryuu3="npm install -g ryuu@3.0.1"
+alias ryuu3="npm install -g ryuu@latest"
 alias ryuu2="npm install -g ryuu@2.23.22"
 
 # Cache
 alias flush='dscacheutil -flushcache'
+
+# Useful Time Savers
+alias npminit="npx license mit > LICENSE && npx gitignore node && npx covgen johnwoodruff91@gmail.com && git init && npm init -y"
+
+# Random/Fun
+alias weather="curl http://wttr.in/provo"

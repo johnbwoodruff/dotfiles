@@ -1,6 +1,9 @@
 {
   "version": 1,
   "cli": {
-    "packageManager": "yarn"
+    "packageManager": "yarn",
+    "warnings": {
+      "versionMismatch": false
+    }
   }
 }
