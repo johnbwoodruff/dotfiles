@@ -4,6 +4,7 @@
     "packageManager": "yarn",
     "warnings": {
       "versionMismatch": false
-    }
+    },
+    "analytics": false
   }
 }

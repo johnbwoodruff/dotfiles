@@ -36,3 +36,4 @@ alias npminit="npx license mit > LICENSE && npx gitignore node && npx covgen joh
 
 # Random/Fun
 alias weather="curl http://wttr.in/provo"
+alias stardewmods='open "/Users/jwoodruff/Library/Application Support/Steam/steamapps/common/Stardew Valley/Contents/MacOS/Mods"'
