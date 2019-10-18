@@ -24,9 +24,6 @@ source $ZSH/oh-my-zsh.sh
 autoload -U promptinit; promptinit
 prompt pure
 
-# Set up rbenv
-eval "$(rbenv init -)"
-
 # User configuration
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -53,7 +50,19 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+nvm() {
+    echo "Lazy loading nvm..."
+
+    unfunction "$0"
+
+    [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && source "$NVM_DIR/bash_completion"
+
+    $0 "$@"
+}
+
 # Aliases
 source $HOME/.aliases
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/jwoodruff/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

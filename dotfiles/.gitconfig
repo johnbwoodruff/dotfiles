@@ -5,7 +5,7 @@
 	email = johnwoodruff91@gmail.com
 [core]
 	editor = nano
-	excludesfile = /Users/johnwoodruff/.gitignore_global
+	excludesfile = /Users/jwoodruff/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
