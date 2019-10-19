@@ -21,12 +21,6 @@ alias safari="open -a safari"
 alias chrome="open -a google\ chrome"
 alias textedit='open -a TextEdit'
 alias slack="open -a '/Applications/Slack.app'"
-alias buzz="open -a '/Applications/Buzz.app'"
-alias domodesktop="open -a '/Applications/Domo Desktop.app'"
-
-# Install Specific Versions
-alias ryuu3="npm install -g ryuu@latest"
-alias ryuu2="npm install -g ryuu@2.23.22"
 
 # Cache
 alias flush='dscacheutil -flushcache'
