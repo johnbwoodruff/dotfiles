@@ -10,11 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-nvm
-  wd
-  yarn
-  ng
-  docker
   git-extras
 )
 
