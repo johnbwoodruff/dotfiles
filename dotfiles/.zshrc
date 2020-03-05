@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   git
   git-extras
+  zsh-nvm
 )
 
 source $ZSH/oh-my-zsh.sh
