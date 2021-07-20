@@ -25,9 +25,13 @@ fi
 brewpackages=(
   "git"
   "git-extras"
+  "composer"
   "alfred"
+  "iterm2"
   "google-chrome"
+  "microsoft-edge"
   "firefox"
+  "tableplus"
   "visual-studio-code"
   "atom"
   "figma"
@@ -76,6 +80,7 @@ manualpackages=(
   "AppIcon Generator"
   "Cacher"
   "Sip"
+  "MesloLGS NF Font (run p10k configure)"
 )
 
 # Manual installations
