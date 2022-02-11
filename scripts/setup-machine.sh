@@ -6,9 +6,6 @@ if test ! $(which xcode-select); then
     xcode-select --install
 fi
 
-# Install ZSH
-# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Make sure brew is installed
 brew="/usr/local/bin/brew"
 if [ -f "$brew" ]
@@ -37,18 +34,18 @@ brewpackages=(
   "figma"
   "steam"
   "discord"
-  "postman"
-  "charles"
-  "sourcetree"
   "spotify"
   "slack"
+  "insomnia"
+  "notion"
+  "fig"
+  "helo"
   "bettertouchtool"
   "the-unarchiver"
   "screenflow"
   "switchresx"
   "kap"
   "tableau-public"
-  "1password"
 )
 
 # Homebrew installations
@@ -81,6 +78,8 @@ manualpackages=(
   "Cacher"
   "Sip"
   "MesloLGS NF Font (run p10k configure)"
+  "Hoobs"
+  "1Password 8"
 )
 
 # Manual installations

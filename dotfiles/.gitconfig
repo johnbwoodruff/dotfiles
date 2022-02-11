@@ -21,3 +21,5 @@
 	l = log --decorate --pretty=format:\"%C(yellow)%h%C(reset), %an, %C(cyan)%cr%C(reset): %s\"
 [pager]
 	branch = false
+[init]
+	defaultBranch = main
